@@ -17,11 +17,11 @@
 <!-- logo -->
 
 <body>
+    <!-- ======HEADER====== -->
     <header class="page-header">
         <div class="container container-header">
             <nav class="page-navigation">
                 <a class="logo link" href="./index.html">Web <span class="company-name">Studio</span></a>
-                <!-- menu nav -->
                 <ul class="menu list">
                     <li class="menu-item">
                         <a class="menu-link link current" href="./index.html">Studio</a>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </nav>
-            <!-- menu info -->
+            <!-- =======ADDRESS====== -->
             <address class="header-address">
                 <ul class="address-header list">
                     <li class="address-list">
@@ -47,11 +47,11 @@
             </address>
         </div>
     </header>
-
+    <!-- ======/HEADER====== -->
     <main>
         <!--SECTION 1 -->
         <section class="section-hero">
-            <div class="container container-btn">
+            <div class="container container-btn is-open">
                 <h1 class="main-page">Effective Solutions
                     for Your Business</h1>
 
@@ -424,7 +424,7 @@
     </footer>
 
     <!-- MODAL WINDOW -->
-    <div class="backdrop is-hidden is-open" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
             <button type="button" class="close-button" data-modal-close>
                 <svg class="clouse-button clouse-button-svg" width="8" height="8">
@@ -491,6 +491,10 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
 
 </html>
