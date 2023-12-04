@@ -124,9 +124,7 @@ body {
     .section-hero {
         max-width: 100%;
         background-color: var(--navy-blue);
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/mobile-foto/dark-bg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/mobile-foto/hero-mobile@1x.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
